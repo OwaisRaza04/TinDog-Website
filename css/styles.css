@@ -1,0 +1,157 @@
+body{
+  font-family: "Montserrat";
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin-top: 70px;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+button{
+  margin-right: 12px;
+}
+#picture{
+  margin-top: 70px;
+}
+/* navigation Bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+/* Download Buttons */
+button{
+  margin-top: 25px;
+}
+/* Image */
+.title-image{
+  width: 60%;
+
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.awesome-2{
+ margin-bottom: 1rem;
+  color: #ef8271;
+}
+.fa-solid:hover{
+  color: #ff4c68;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+h3{
+  font-size: 1.5rem;
+
+}
+.second-part{
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8271;
+ color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 18px;
+}
+/* press */
+#press{
+  background-color: #ef8271;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;s
+}
+.pricing-col{
+  padding: 3%;
+}
+@media (max-width: 1028px) {
+.title-image{
+ position: static;
+ transform: rotate(0);
+
+}
+.to-center-align{
+  text-align: center;
+}
+
+}
+/* cta section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7%
+
+}
+.cta-text{
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 3.5rem;
+  color: #fff;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom:3%;
+}
+/* footer section */
+#footer{
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+.footer-text{
+  color: grey;
+  padding-top: 1.5%;
+}
+.social-media{
+  padding-left: 1%;
+  padding-right: 1%;
+}
